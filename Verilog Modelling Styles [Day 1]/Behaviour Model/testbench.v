@@ -6,8 +6,8 @@ module logic_gates_tb(
 
     #1 a=1'b0;b=1'b0;
     #1 a=1'b0;b=1'b0;
-    #1 a=1'b0;b=1'b0;
-    #1 a=1'b0;b=1'b0;
+    #1 a=1'b1;b=1'b0;
+    #1 a=1'b1;b=1'b1;
   end
 endmodule
   
