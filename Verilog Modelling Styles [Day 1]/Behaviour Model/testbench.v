@@ -1,3 +1,4 @@
+`include "design.v"
 module logic_gates_tb(
   input wire and_gate,or_gate,not_gate,nand_gate,nor_gate,xor_gate,xnor_gate,output reg a,b);
   logic_gates dut(.a(a), .b(b), .and_gate(and_gate), .or_gate(or_gate), .not_gate(not_gate), .nand_gate(nand_gate), .nor_gate(nor_gate), .xor_gate(xor_gate), .xnor_gate(xnor_gate));
