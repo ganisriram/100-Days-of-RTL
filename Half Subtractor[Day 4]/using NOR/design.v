@@ -1,4 +1,4 @@
-module half_nand(input wire a,b,output reg differ,borrow);
+module half_nor(input wire a,b,output reg differ,borrow);
   wire w1,w2,w3,w4;
   assign w1=~(a|b);
   assign borrow=~(a|w1);
