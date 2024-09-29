@@ -1,7 +1,7 @@
 module priorityencoder8x3_th;
 reg [7:01d;
 wire bo,b1,b2;
-priorityencoder8x3 dut (.d(d),.bo (bo), .bi (bl), .b2 (b2));
+     priorityencoder8x3 dut (.d(d), .bo(bo), .b1(bl), .b2(b2));
 Initial begin
  #10 ;d=8'b00000001;
  #10 ;d=8'b0000001x;
