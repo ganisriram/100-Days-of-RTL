@@ -1,5 +1,5 @@
 // Create Date: 06.10.2024 17:44:18
-// Design Name: Gani SRiram Thota
+// Design Name: Gani Sriram Thota
 // Module Name: demux1x8_tb
 // Project Name: 
 // Target Devices: 
