@@ -1,6 +1,6 @@
 module logic_gates(
   input a,b,
-  output reg and_gate,not_gate,nand_gate,nor_gate,xor_gate,xnor_gate);
+  output reg and_gate,or_gate,not_gate,nand_gate,nor_gate,xor_gate,xnor_gate);
   always@(*)
     begin
       and_gate=a&b;
