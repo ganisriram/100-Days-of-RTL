@@ -1,12 +1,11 @@
-interface intf(); 
-  logic a;
-  logic b;
- logic y0;
-  logic y1;
-  logic y2;
-  logic y3;
-  
-  modport WR_DRV_MP (output a,b);
-  modport WR_MON_MP (input a,b);
-  modport RD_MON_MP ( input y0,y1,y2,y3);
-endinterface
+ class transaction;
+   rand bit a;
+   rand bit b;
+        bit y0;
+       bit y1;
+       bit y2;
+       bit  y3;
+  function void display(input string tag);
+    $display("Time:%0t [%0s]: a:%0b b:%0b y0:%0b y1:%0b y2:%0b y3:%0b",$time,tag,a,b,y0,y1,y2,y3);
+  endfunction
+endclass
