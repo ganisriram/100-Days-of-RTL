@@ -27,7 +27,7 @@ module top;
   initial begin
     test_h=new(duv_if,duv_if,duv_if);
     test_h.build_run();
-    #200;
+    #100;
      
     $finish;
   end
