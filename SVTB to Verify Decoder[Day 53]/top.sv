@@ -1,9 +1,4 @@
 
-// Code your testbench here
-// or browse Examples
-// Code your testbench here
-// or browse Examples
-//`include "design.sv"
 `include "Interface.sv"
 `include "Transaction.sv"
 `include "generator.sv"
